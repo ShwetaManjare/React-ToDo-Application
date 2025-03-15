@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // MongoDB connection setup
-const mongoUrl = "mongodb+srv://avanishpratapsingh45:avanish@cluster0.cgavtwr.mongodb.net/";
+
 
 mongoose
     .connect(mongoUrl)
